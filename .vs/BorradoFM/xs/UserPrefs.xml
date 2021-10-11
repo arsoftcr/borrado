@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{663D658B-C3E1-42BD-B181-61D3A7D09B65}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BorradoFM/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="BorradoFM/Controllers/HomeController.cs" Line="20" Column="10" />
+      <File FileName="BorradoFM/wwwroot/js/site.js" Line="25" Column="29" />
+      <File FileName="BorradoFM/Models/Entidad.cs" Line="12" Column="25" />
+      <File FileName="BorradoFM/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="BorradoFM/Views/Home/Index.cshtml" Line="70" Column="135" />
+      <File FileName="BorradoFM/wwwroot/css/site.css" Line="2570" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BorradoFM" expanded="True" selected="True">
+            <Node name="BorradoFM" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BorradoFM PreferredExecutionTarget="/Applications/Firefox.app" />
+</Properties>

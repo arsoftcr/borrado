@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Borrado";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Borrado de datos</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="arsoft" name="generator" />
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="body-6">
+    <div class="container-3 w-container">
+
+        <div class="llaves">
+            <div class="llave">
+                <label for="publica">Llave pública</label>
+                <input type="text" class="w-input" name="publica"
+                       placeholder="Llave pública" id="publica" required=""
+                       value="164cb23b34a9a48490827fd7744b9a6273e087d3" />
+            </div>
+
+            <div class="llave">
+                <label for="privada">Llave privada</label>
+                <input type="text" class="w-input" name="privada"
+                       value="2b84bf7ef0e8185616dd84cfee40fc4a64e7db0c0fbde156e6f49abd7ffaa4c8f98e1ce3d8f2"
+                       placeholder="Llave privada" id="privada" required="" />
+            </div>
+
+
+        </div>
+
+
+        <div class="w-form">
+            <form id="email-form" name="email-form" data-name="Email Form" class="form-6">
+                <select id="entidades" name="Entidades" required class="select-field w-select">
+                    <option value="accounts">Clientes</option>
+                    <option value="contacts">Contactos</option>
+                    <option value="users">Vendedores</option>
+                    <option value="products">Artículos</option>
+                    <option value="sales">Ventas</option>
+                    <option value="salesorders">Pedido Encabezado</option>
+                    <option value="salesordersLines">Pedido Línea</option>
+                    <option value="documents">Documentos</option>
+                    <option value="rates">Niveles</option>
+                    <option value="countries">Paises</option>
+                    <option value="currencies">Monedas</option>
+                    <option value="roles">Roles</option>
+                    <option value="Z_tblDeudaPendiente">Deuda</option>
+                    <option value="contactTypes">Cargos</option>
+                    <option value="Z_tblCategoria_Producto">Clasificaciones 1</option>
+                    <option value="Z_tblSubCategoria">Clasificaciones 2</option>
+                    <option value="accountSegments">Segmentos</option>
+                    <option value="tblTiposCalificacionEmpresa">Tipos de Calificación Empresas</option>
+                    <option value="Z_tblTipoDocumento">Tipo Documento</option>
+                    <option value="Z_tblTipoPersona">Tipo Persona</option>
+                    <option value="Z_tblTipoRegimen">Tipo Regimen</option>
+                    <option value="Z_tblTipoContribuyente">Tipo Contribuyente</option>
+                    <option value="z_tblorigen">Origen</option>
+                    <option value="Z_tblBodega">Bodegas</option>
+                </select>
+                <input type="text"
+                      onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"
+                       class="text-field-4 w-input" maxlength="256" 
+                       placeholder="ID de la entidad" id="idnum" required="" />
+
+            </form>
+
+
+
+        </div>
+
+        <div class="div-block-3">
+            <button id="borrarbtn" class="button w-button">Eliminar</button>
+            <button id="detenerbtn" class="button w-button">Detener</button>
+            <div class="text-block">Resultado:</div>
+        </div>
+    </div>
+
+    <script src="./index.js" async defer></script>
+</body>
+
+</html>
